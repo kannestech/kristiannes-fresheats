@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("/dist/images/double-bubble-outline.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+
+}
+.logo-contain{
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+header {
+    background-color: #B0d785;
+}
+body {
+      font-family: "Montseratt", sans-serif;
+    }
+footer{
+    font-family: "Merriweather", sans-serif;
+}
+@media (min-width: 700px){
+nav { display: flex;
+    width: 100vw;
+  }
+}
+li{
+    margin: 0 2vw;
+  }
